@@ -1,12 +1,11 @@
-a=int(input("enter the number:"))
-res=0
-check=a
-while a!=0:
-    rem = a%10
-    res=(res*10)+rem
-    a=a//10
 
-if check==res:
-    print(res, "it is a palindrom")
+n = (input("Enter any string: "))
+
+check = n.reverse()
+
+
+if n == check:
+    print("The number given is a PALINDROME.")
 else:
-    print(res,"is not a palindrom")
+    print("The number given is a  NOT A PALINDROME.")
+
