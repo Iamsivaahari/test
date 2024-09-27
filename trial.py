@@ -1,5 +1,5 @@
 print("hello world")
 a=input("enter your name :")
-if a=="sivaa" or "krithikk":
+if a=="shfeeq":
   print('you are gay')
 
