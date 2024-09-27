@@ -5,7 +5,7 @@ check = n[::-1]
 
 
 if n == check:
-    print("The number given is a PALINDROME.")
+    print("The given word is a PALINDROME.")
 else:
-    print("The number given is a  NOT A PALINDROME.")
+    print("The given word is a  NOT A PALINDROME.")
 
