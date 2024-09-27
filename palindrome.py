@@ -1,7 +1,7 @@
 
 n = (input("Enter any string: "))
 
-check = n.reverse()
+check = n[::-1]
 
 
 if n == check:
