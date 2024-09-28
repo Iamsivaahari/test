@@ -1,4 +1,3 @@
-
 n = (input("Enter any string: "))
 
 check = n[::-1]
