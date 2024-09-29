@@ -1,22 +1,16 @@
-
-n = int(input("Enter any number: "))
-res = 0
-check = n
+a=int(input("enter a number : "))
+check=a
+res=0
+s=a
 count=0
-te=n
-
-while te!=0:
-    te=te//10
-    count+=1
-
-if n < 1000 and n > 99:
-    while n != 0:
-        k = n % 10
-        res = res + k * k * k
-        n = n // 10
-
-if check == res:
-    print(" The number ",check," is an Armstrong number.")
+while s!=0:
+    s=s//10
+    count=count+1
+while a!=0:
+    rem=a%10
+    res=res+(rem**count)
+    a=a//10
+if res==check:
+    print("number is an armstrong number")
 else:
-    print("The number ",check," is not an Armstrong number.")
-
+    print("number is not an armstrong number")
