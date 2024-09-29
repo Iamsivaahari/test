@@ -1,9 +1,15 @@
-n = (input("Enter any string: "))
 
-check = n[::-1]
+n = (input("Enter any number: "))
+res = 0
+check = n
 
-if n == check:
-    print("The given word is a PALINDROME.")
+while n != 0:
+    k = n % 10
+    res = (res * 10) + k
+    n = n // 10
+    
+if check == res:
+    print("The number given is a PALINDROME.")
 else:
-    print("The given word is a NOT A PALINDROME.")
+    print("The number given is a  NOT A PALINDROME.")
 
