@@ -1,5 +1,4 @@
-from array import *
-arr1 = array('i',[])
+arr1 = []
 k=0
 n = int(input("enter the size of your array: "))
 for i in range(0,n):
